@@ -22,7 +22,7 @@ class Song
       @@artist_count[genre] += 1
     else
       @@artist_count[genre] = 1
-    end  
+    end
   end
 
   def self.count
