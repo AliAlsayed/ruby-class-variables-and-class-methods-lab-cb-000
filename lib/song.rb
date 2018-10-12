@@ -41,7 +41,7 @@ class Song
     @@genre_count
   end
 
-  def artist_count
+  def self.artist_count
     @@artist_count
   end
 
